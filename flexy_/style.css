@@ -10,37 +10,35 @@ body {
  
 
 .phone .container {
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .container .header {
     background: rgb(255, 255, 255);
     border: solid 1px black;
-    grid-column-gap: 200px;
-    display: grid;
     padding: 8px 8px 8px 8px;
-    grid-column: 1;
     align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
 .header .box1 {
     border: 1px black solid;
-    grid-row: 1 / 2;
-    grid-column: 1;
 }
 
 
 
 .header .box2 {
     border: 1px black solid;
-    grid-row: 1 / 2;
-    grid-column: 2;
+}
+.box2 .small_mobbyn{
+    display: none;
 }
 
 .tiltle {
     text-align: center;
-    padding: 32px 8px 32px 8px;
+    padding: 32px 2px 32px 8px;
     border: 1px solid black;
     align-content: center;
     background-color:white;
@@ -51,13 +49,14 @@ body {
     width: 25%;
     margin: auto;
     margin-top: 39px;
+    text-align: center;
 }
 .main {
     padding: 8px;
 }
 
 
-.main .tiltle {
+.main .tiltle_main {
     text-align: center;
     padding: 32px 8px 32px 8px;
     border: 1px solid black;
@@ -65,6 +64,15 @@ body {
     background-color:white;
     margin-top: 20px;
 }
+
+
+.tiltle_main .box_tiltle_main {
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    margin-top: 39px;
+}
+
 
 .main .container {
     display: grid;
@@ -127,7 +135,60 @@ body {
     border: 1px solid black;
 }
 
+.container .eight {
+    display: none;
+}
 
+.container .nine {
+    display: none;
+}
+
+.container .ten {
+    display: none;
+}
+
+
+.container .eleven {
+    display: none;
+}
+
+.container .twelve {
+    display: none;
+}
+
+
+.container .thirteen {
+    display: none;
+}
+
+
+.container .fourteen {
+    display: none;
+}
+
+.container .fifteen {
+    display: none;
+}
+
+.container .sixteen {
+    display: none;
+}
+
+.container .seventeen {
+    display: none;
+}
+
+.container .eighteen {
+    display: none;
+}
+
+.container .nineteen {
+    display: none;
+}
+
+.container .twenty {
+    display: none;
+}
 
 .article {
     border: 1px solid black;
@@ -164,3 +225,200 @@ body {
     line-height: 23px;
     letter-spacing: 0.15px;
 }
+
+
+
+
+/*tablet*/
+
+@media (min-width: 600px) and (max-width: 768px) {
+        .header .box2 {
+        display: flex;
+        border: 1px solid black;
+        margin-top: 8px;
+        justify-content: space-around;
+        width: fit-content; 
+      }
+
+      .box2 .small_mobbyn {
+          border: 1px solid black;
+          display: flex;
+          margin: 8px;
+          width: 40px;
+      }
+
+      .tiltle {
+          padding-left: 10%;
+          text-align: left;
+          
+        }
+
+      .tiltle .box_tiltle { 
+          margin-left: 0;
+      }
+
+      .main .tiltle_main {
+          text-align: left;
+          display: flex;
+      }
+
+
+      .main .tiltle_main .box_tiltle_main {
+        margin-right: 0;
+        margin-top: 0;  
+    }
+
+
+    .container .one {
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1/4;
+        border: 1px solid black;
+   }
+   
+   .container .two {
+       text-align: center;
+       grid-row: 2;
+       grid-column: 1/2;
+       border: 1px solid black;
+   }
+   
+   
+   .container .three {
+       text-align: center;
+       grid-row: 2;
+       grid-column: 2/4;
+       border: 1px solid black;
+   }
+   
+   
+   .container .four {
+       text-align: center;
+       grid-row: 3;
+       grid-column: 1/2;
+       border: 1px solid black;
+   }
+   
+   
+   .container .five {
+       text-align: center;
+       grid-row: 3;
+       grid-column: 2/4;
+       border: 1px solid black;
+   }
+   
+   
+   .container .six {
+       text-align: center;
+       grid-row: 4;
+       grid-column: 1/2;
+       border: 1px solid black;
+   }
+   
+   
+   .container .seven {
+       text-align: center;
+       grid-row: 4;
+       grid-column: 2/4;
+       border: 1px solid black;
+   }
+   .container .eight {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/4;
+    border: 1px solid black;
+}
+
+.container .nine {
+   text-align: center;
+   grid-row: 2;
+   grid-column: 1/2;
+   border: 1px solid black;
+}
+
+
+.container .ten {
+   text-align: center;
+   grid-row: 2;
+   grid-column: 2/4;
+   border: 1px solid black;
+}
+
+
+.container .eleven {
+   text-align: center;
+   grid-row: 3;
+   grid-column: 1/2;
+   border: 1px solid black;
+}
+
+
+.container .twelve {
+   text-align: center;
+   grid-row: 3;
+   grid-column: 2/4;
+   border: 1px solid black;
+}
+
+
+.container .thirteen {
+   text-align: center;
+   grid-row: 4;
+   grid-column: 1/2;
+   border: 1px solid black;
+}
+
+
+.container .fourteen {
+   text-align: center;
+   grid-row: 4;
+   grid-column: 2/4;
+   border: 1px solid black;
+}
+
+
+.container .fifteen {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+
+ .container .sixteen {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+
+ .container .seventeen {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+
+ .container .eighteen {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+
+ .container .nineteen {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+
+ .container .twenty {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 2/4;
+    border: 1px solid black;
+ }
+  }
+
+
+
