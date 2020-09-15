@@ -423,7 +423,6 @@ body {
     flex-wrap: wrap;
     width: 100%;
     display: flex;
-
   }
   .container1 .one {
     border: 1px solid black;
@@ -482,12 +481,11 @@ body {
     flex: 1 0 35%;
     display: block;
   }
-
   .container1 .ten {
     border: 1px solid black;
     text-align: center;
     font-size: 30px;
-    flex: 1 0 13%;
+    flex: 1 0 49%;
     display: block;
   }
   .container1 .eleven {
