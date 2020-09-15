@@ -388,3 +388,203 @@ body {
 
 }
 
+/*komputer*/
+
+
+@media (min-width: 1281px) {
+
+    .header .box2 {
+        display: flex;
+        border: 1px solid black;
+        margin-top: 8px;
+        justify-content: space-around;
+        width: fit-content;
+      }
+    
+      .box2 .small_mobbyn {
+        border: 1px solid black;
+        display: flex;
+        margin: 8px;
+        width: 40px;
+      }
+
+      .tiltle {
+        padding-left: 10%;
+        text-align: left;
+      }
+    
+      .tiltle .box_tiltle {
+        margin-left: 0;
+      }
+    
+      .main .tiltle_main {
+        text-align: left;
+        display: flex;
+      }
+    
+      .main .tiltle_main .box_tiltle_main {
+        margin-right: 0;
+        margin-top: 0;
+      }
+
+      .main .tiltle_main .box_tiltle_main {
+        margin-right: 0;
+        margin-top: 0;
+      }
+
+      .main {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+    
+      .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+    
+      .container1 .one {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+      }
+    
+      .container1 .two {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+      }
+    
+      .container1 .three {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+      }
+    
+      .container1 .four {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+      }
+    
+      .container1 .five {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .six {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+    
+      .container1 .seven {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .eight {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+    
+      .container1 .nine {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .ten {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 49%;
+        display: block;
+      }
+    
+      .container1 .eleven {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+    
+      .container1 .twelve {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .thirteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+    
+      .container1 .fourteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 49%;
+        display: block;
+      }
+    
+      .container1 .fifteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .sixteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 63%;
+        display: block;
+      }
+    
+      .container1 .seventeen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .eighteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+    
+      .container1 .nineteen {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 35%;
+        display: block;
+      }
+    
+      .container1 .twenty {
+        text-align: center;
+        border: 1px solid black;
+        flex: 1 0 13%;
+        display: block;
+      }
+
+
+      .article {
+        align-items: flex-start;
+    }
+  
+
+    
+}
